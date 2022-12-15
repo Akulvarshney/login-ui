@@ -1,0 +1,11 @@
+.navbar {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+
+    &:first-child {
+        padding-right: 7rem;
+    }
+}

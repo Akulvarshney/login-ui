@@ -10,8 +10,7 @@ export const ColorModeSwitcher = props => {
   return (
     <IconButton
       aria-label={`Switch to ${text} mode`}
-      variant="ghost"
-      color="current"
+      colorScheme={'linkedin'}
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
